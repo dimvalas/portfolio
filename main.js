@@ -92,7 +92,6 @@ class PortfolioApp {
             .replace(/javascript:/gi, '')
             .replace(/on\w+=/gi, '')
             .replace(/data:/gi, '')
-            .trim();
     }
 
     // Input Sanitization and Validation
@@ -106,7 +105,6 @@ class PortfolioApp {
             .replace(/on\w+\s*=/gi, '')
             .replace(/data:(?!image\/)/gi, '')
             .replace(/vbscript:/gi, '')
-            .trim()
             .substring(0, this.securityConfig.maxInputLength);
     }
 
