@@ -330,7 +330,7 @@ export default function Home() {
                   href="/resume.png"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-gray-800 text-gray-100 font-bold py-3 px-6 rounded-full hover:bg-gray-700 duration-150"
+                  className="inline-block bg-[rgba(23,23,23,1)] text-gray-100 font-bold py-3 px-6 rounded-full hover:bg-[rgba(23,23,23,0.87)] duration-150"
                 >
                   Download My Resume
                 </a>
