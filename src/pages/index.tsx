@@ -118,13 +118,6 @@ export default function Home() {
                 Contact
               </a>
               <a
-                href="#resume"
-                rel="noopener noreferrer"
-                className="font-sans text-gray-950 hover:text-gray-800 duration-100"
-              >
-                Resume
-              </a>
-              <a
                 href="#skills"
                 rel="noopener noreferrer"
                 className="font-sans text-gray-950 hover:text-gray-800 duration-100"
