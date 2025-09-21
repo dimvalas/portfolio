@@ -310,34 +310,6 @@ export default function Home() {
             </div>
           </section>
 
-          {/* Resume Section */}
-          <section
-            id="resume"
-            className="flex flex-col items-center justify-center px-4 py-32 fade-in-from-top"
-          >
-            <h2 className="text-4xl md:text-5xl font-black text-gray-800 mb-12">
-              My Resume
-            </h2>
-            <div className="w-full max-w-4xl p-6 rounded-lg text-center">
-              <p className="text-lg text-gray-600 mb-6 px-4">
-                I am currently a student with a strong foundation in modern web
-                technologies and a passion for building great user experiences.
-                I am actively seeking collaborations and opportunities to apply
-                my skills on real-world projects.
-              </p>
-              <div className="mt-8">
-                <a
-                  href="/resume.png"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block bg-[rgba(23,23,23,1)] text-gray-100 font-bold py-3 px-6 rounded-full hover:bg-[rgba(23,23,23,0.87)] duration-150"
-                >
-                  Download My Resume
-                </a>
-              </div>
-            </div>
-          </section>
-
           {/* Skills Section */}
           <section
             id="skills"
